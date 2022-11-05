@@ -159,6 +159,61 @@ a:hover {
 
 /* Media Queries */
 
+ @media (min-width: 400px){
+    .social-media img, .cart img  {
+        width:100%;
+        max-width:20px;
+    }
+
+    .cart a{
+        font-size: 0.9rem;
+    }
+
+    .sub-header{
+        font-size: 1rem;
+        margin-top: -20px;
+        margin-left: -3px;  
+    }
+
+    .logo > a > img {
+        width:120%;
+        margin-left: -19px;
+        margin-top: 0px;}
+
+    .grid{
+        display: grid;
+        grid-template-columns: 170px 170px;
+    }
+
+    .img-wrapper > img {
+        width: 100%;
+        aspect-ratio: 0.5 / 0.5;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 30px;
+    }
+
+    .img-wrapper a {
+        font-size: 1.8rem;
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        margin-left: 24px;
+        text-decoration: none;
+    }
+    
+    .footer {
+        font-size:0.8rem;
+    }
+        
+    .nav a {
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.1rem;
+        font-family: var(--main-font);
+    }
+}
+
 @media (min-width: 600px) {
 
     .social-media img, .cart img  {
